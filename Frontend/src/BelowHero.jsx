@@ -1,27 +1,23 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./BelowHero.css";
+import img1 from "./assets/img1.jpg";
+import img2 from "./assets/img2.jpeg";
+import img3 from "./assets/img3.jpeg";
 
 function App() {
-
   return (
     <>
       <div className="container">
         <div className="box">
-          <img src="/path/to/image1.jpg" alt="Item 1" className="box-image" />
-          <div className="box-title">Name</div>
-          <button className="view-album-button">View Album</button>
+          <img src={img1} alt="Item 1" className="box-image" />
+          <button className="view-album-button">Event 1</button>
         </div>
         <div className="box">
-          <img src="/path/to/image2.jpg" alt="Item 2" className="box-image" />
-          <div className="box-title">Name</div>
-          <button className="view-album-button">View Album</button>
+          <img src={img2} alt="Item 1" className="box-image" />
+          <button className="view-album-button">Event 2</button>
         </div>
         <div className="box">
-          <img src="/path/to/image3.jpg" alt="Item 3" className="box-image" />
-          <div className="box-title">Name</div>
-          <button className="view-album-button">View Album</button>
+          <img src={img3} alt="Item 1" className="box-image" />
+          <button className="view-album-button">Event 3</button>
         </div>
       </div>
     </>
